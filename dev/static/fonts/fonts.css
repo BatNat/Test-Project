@@ -1,0 +1,22 @@
+@font-face {
+    font-family 'PT Sans' /* Имя шрифта */
+    src: url(fonts/PT_Sans/PT_Sans_Web_Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+			font-family: "MyriadProRegular";
+			src: url("fonts/MyriadProRegular/MyriadProRegular.eot");
+			src: url("fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+			url("fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+			url("fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+@font-face {
+			font-family: "fontawesome-webfont.eot";
+			src: url("fonts/fonts/fontawesome-webfont.eot.eot");
+			src: url("fonts/fonts/fontawesome-webfont.eot.eot?#iefix")format("embedded-opentype"),
+			url("fonts/fonts/fontawesome-webfont.eot.woff") format("woff"),
+			url("fonts/fonts/fontawesome-webfont.eot.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}

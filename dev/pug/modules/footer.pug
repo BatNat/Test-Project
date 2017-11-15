@@ -1,0 +1,29 @@
+//- МИКСИНЫ
+
+mixin footerNavList(title)
+	li.footer-nav-item
+		a(href="javascript:void(0);").footer-nav-link= title
+
+
+
+
+.map
+	iframe(src="https://yandex.ru/map-widget/v1/?um=constructor%3A3291b262423d0dae11af5749d087a79260930834be86ef99cfb41b43692a0a97&amp;source=constructor" width="100%" height="400" frameborder="0")
+.footer
+	.container
+		.row
+			.col-md-2
+				img(src="static/img/general/logo-footer.png" alt="Логотип футер")
+			.col-md-8
+				ul.footer-nav-top
+					+footerNavList('Главная').active
+					+footerNavList('Каталог техники')
+					+footerNavList('Услуги')
+					+footerNavList('Выполненные работы')
+					+footerNavList('О компании')
+					+footerNavList('Услуги')
+					+footerNavList('Контакты')
+			.col-md-2
+				p © Aйтекс start 2016
+				a(href="#").link-itex itexstart.ru
+					img(src="static/img/general/itex-logo.png" alt="Itex").icon-itex

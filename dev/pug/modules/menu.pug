@@ -1,0 +1,15 @@
+mixin mainNavList(title)
+	li.nav-item
+		a(href="javascript:void(0);").nav-link= title
+
+ul.nav
+	+mainNavList('Каталог техники')
+	+mainNavList('Услуги')
+	+mainNavList('Выполненные работы')
+	+mainNavList('О компании')
+	+mainNavList('Контакты')
+
+
+
+
+
